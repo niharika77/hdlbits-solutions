@@ -19,7 +19,8 @@ module top_module (
             temp <= in;
         end
     
-    assign temp_out = in & ~temp;
+    assign temp_out = in & ~temp;  //when 0 bit changes to 1
+    //assign temp_out = in ^ temp;  //any edge changes 
     
     always @(posedge clk)
         begin
