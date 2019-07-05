@@ -36,7 +36,7 @@ module top_module (
             else 
                 begin
                     if(temp_out!=0)
-                    out <= temp_out;
+                    out <= temp_out | out;
                     else
                         out<=out;
                     end
