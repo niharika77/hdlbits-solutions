@@ -3,7 +3,7 @@
 //after a 0 to 1 transition occurs.
 
 //************SOLUTION****************//
-//output is set after one clock cycle delay.
+//output is set after one clock cycle delay
 
 module top_module (
     input clk,
